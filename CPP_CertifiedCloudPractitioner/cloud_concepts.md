@@ -16,5 +16,5 @@
 * PaaS - Platform as a service
 * IaaS -  Infrastucture as a service
 
-!(https://github.com/Mfarzana/AWS/blob/main/imges/types-cloud-computing.jpg)
+![](https://github.com/Mfarzana/AWS/blob/main/imges/types-cloud-computing.jpg)
 
