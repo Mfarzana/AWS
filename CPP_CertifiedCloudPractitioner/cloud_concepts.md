@@ -10,4 +10,10 @@
 * Someone else owns the servers
 * Someone else hire the IT people
 * Someone else pay /rest the real-estate
-* you are responsible for your configuring cloud services and code, someone else take care of the rest
+* you are responsible for your configuring cloud services and code, someone else take care of the rest. eg: AWS, Azure, GCP
+### Types of cloud computing
+* SaaS - Software as a service
+* PaaS - Platform as a service
+* IaaS -  Infrastucture as a service
+![alt text](https://github.com/Mfarzana/AWS/blob/main/imges/types-cloud-computing.jpg)
+
