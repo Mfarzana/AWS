@@ -12,9 +12,9 @@
 * Someone else pay /rest the real-estate
 * you are responsible for your configuring cloud services and code, someone else take care of the rest. eg: AWS, Azure, GCP
 ### Types of cloud computing
-* SaaS - Software as a service
-* PaaS - Platform as a service
-* IaaS -  Infrastucture as a service
+* SaaS - Software as a service. eg: Gmail, office 365
+* PaaS - Platform as a service. eg: Heroku
+* IaaS -  Infrastucture as a service. eg: AWS, GCP, Azure
 
   ![ types of cloud computing](https://github.com/Mfarzana/AWS/blob/main/imges/types-cloud-computing.jpg)
 
