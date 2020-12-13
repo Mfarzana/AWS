@@ -15,5 +15,6 @@
 * SaaS - Software as a service
 * PaaS - Platform as a service
 * IaaS -  Infrastucture as a service
-![alt text](https://github.com/Mfarzana/AWS/blob/main/imges/types-cloud-computing.jpg)
+
+!(https://github.com/Mfarzana/AWS/blob/main/imges/types-cloud-computing.jpg)
 
