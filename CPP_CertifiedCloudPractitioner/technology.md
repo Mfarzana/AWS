@@ -23,7 +23,10 @@ Is a web service that provides resizablee compute capacity in the Cloud. It is d
   * Instance Store: if you shut down server then data will go away.
   * EBS(Elastic Block store): Data will be persistant mean if you shut down server then data is still there.
 * **AMI - Amazon Machine Image**: Template for an EC2 instance including configuration, operating system and data.
-* **Purchase Option**- pricing is based on instance type.
+* **Purchase Option**- pricing is based on instance type. Purhase options are:
+ * On Demand: You pay by the second for the instance that are launched
+ * Reserved: You purchase at a discount instance in advanced for 1-3 years
+ * Spot: you can leverage unused EC2 capacity in a region for a large discount
 
 #### SSM 
 AWS Systems Manager or Simple System Manager is an **AWS service** that you can **use to view and control your infrastructure on AWS**. Systems Manager simplifies resource and application management, shortens the time to detect and resolve operational problems, and helps you operate and manage your AWS infrastructure securely at scale
