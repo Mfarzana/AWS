@@ -27,6 +27,21 @@ Is a web service that provides resizablee compute capacity in the Cloud. It is d
   * On Demand: You pay by the second for the instance that are launched
   * Reserved: You purchase at a discount instance in advanced for 1-3 years
   * Spot: you can leverage unused EC2 capacity in a region for a large discount
+## AWS Elastic Beanstalk
+**Automates the process of deploying and scaling workloads on EC2 (PaaS)**
+* Support a specific technologies
+* Leverage existing AWS services
+* Only pay for the other services you leverage
+* Handle provisioning, load balancing, scaling and monitoring
+#### Elastic BeanStalk Features
+* Monitoring
+* Deployment
+* Scaling
+* EC2 customization
+### Elastic Beanstalk Use Cases
+* Deploy an application with minimal knowledge of other services
+* Reduec the overall maintenance needed for the application
+* Few customizations are required
 
 #### SSM 
 AWS Systems Manager or Simple System Manager is an **AWS service** that you can **use to view and control your infrastructure on AWS**. Systems Manager simplifies resource and application management, shortens the time to detect and resolve operational problems, and helps you operate and manage your AWS infrastructure securely at scale
