@@ -47,12 +47,12 @@ Is a web service that provides resizablee compute capacity in the Cloud. It is d
 AWS Lambda is a **serverless compute service** that lets you run code without provisioning or managing servers, creating workload-aware cluster scaling logic, maintaining event integrations, or managing runtimes. With Lambda, you can run code for virtually any type of application or backend service - all with zero administration. Just upload your code as a ZIP file or container image, and Lambda automatically and precisely allocates compute execution power and runs your code based on the incoming request or event, for any scale of traffic.
 ### Use Cases
 
-* **Data processing** - eg:Lambda can be directly triggered by AWS services such as S3, DynamoDB etc.
-* **Real-time file processing** - eg: You can use Amazon S3 to trigger AWS Lambda to process data immediately after an upload. 
-* **Real-time stream processing** - eg: You can use AWS Lambda and Amazon Kinesis to process real-time streaming data for application activity tracking, transaction order processing, click stream analysis, log filtering, social media analysis etc.
-* **achine learning** - eg: You can use AWS Lambda to preprocess data before feeding it to your machine learning model. 
-* **Backends** - eg: You can build serverless backends using AWS Lambda to handle web, mobile, Internet of Things (IoT), and 3rd party API requests. 
-* **Web applications** - eg: By combining AWS Lambda with other AWS services, developers can build powerful web applications that automatically scale up and down and run in a highly available configuration across multiple data centers – with zero administrative effort required for scalability, back-ups or multi-data center redundancy.
+* **Data processing**: Lambda can be directly triggered by AWS services such as S3, DynamoDB etc.
+* **Real-time file processing**: You can use Amazon S3 to trigger AWS Lambda to process data immediately after an upload. 
+* **Real-time stream processing**: You can use AWS Lambda and Amazon Kinesis to process real-time streaming data for application activity tracking, transaction order processing, click stream analysis, log filtering, social media analysis etc.
+* **achine learning**: You can use AWS Lambda to preprocess data before feeding it to your machine learning model. 
+* **Backends**: You can build serverless backends using AWS Lambda to handle web, mobile, Internet of Things (IoT), and 3rd party API requests. 
+* **Web applications**: By combining AWS Lambda with other AWS services, developers can build powerful web applications that automatically scale up and down and run in a highly available configuration across multiple data centers – with zero administrative effort required for scalability, back-ups or multi-data center redundancy.
 
 ### Advantages
 * Reduced maintenance requirments
