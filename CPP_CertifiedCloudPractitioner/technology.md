@@ -20,13 +20,13 @@ Is a web service that provides resizablee compute capacity in the Cloud. It is d
   * Compute memory and storage optimized
   * Accelared computing 
 * **Root Device Type**: Two types
-  * Instance Store: if you shut down server then data will go away.
-  * EBS(Elastic Block store): Data will be persistant mean if you shut down server then data is still there.
+  * **Instance Store**: if you shut down server then data will go away.
+  * **EBS(Elastic Block store)**: Data will be persistant mean if you shut down server then data is still there.
 * **AMI - Amazon Machine Image**: Template for an EC2 instance including configuration, operating system and data.
 * **Purchase Option**- pricing is based on instance type. Purhase options are:
-  * On Demand: You pay by the second for the instance that are launched
-  * Reserved: You purchase at a discount instance in advanced for 1-3 years
-  * Spot: you can leverage unused EC2 capacity in a region for a large discount
+  * **On Demand**: You pay by the second for the instance that are launched
+  * **Reserved**: You purchase at a discount instance in advanced for 1-3 years
+  * **Spot**: you can leverage unused EC2 capacity in a region for a large discount
 ## AWS Elastic Beanstalk
 **Automates the process of deploying and scaling workloads on EC2 (PaaS)**
 * Support a specific technologies
