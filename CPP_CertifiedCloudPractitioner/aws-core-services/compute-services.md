@@ -1,4 +1,4 @@
-# Compute Services
+# AWS Compute Services
 ## Amazon Elastic Compute Cloud (Amazon EC2) 
 Is a web service that provides resizablee compute capacity in the Cloud. It is designed to make web-scale computing easier for developer. Amazon EC2 **provides different instance (as servers)** types to enable you to choose the CPU, memory, storage, and networking capacity that you need **to run your applications**.
 ### EC2 Use Cases
