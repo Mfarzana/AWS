@@ -55,9 +55,9 @@ AWS Lambda is a **serverless compute service** that lets you **run code without 
 * Scales based on demand
 * Pricing is based on usage
 
----
-AWS Systems Manager or Simple System Manager is an **AWS service** that you can **use to view and control your infrastructure on AWS**. Systems Manager simplifies resource and application management, shortens the time to detect and resolve operational problems, and helps you operate and manage your AWS infrastructure securely at scale
----
+> **NOTE: SSM**
+**AWS Systems Manager** or Simple System Manager is an **AWS service** that you can **use to view and control your infrastructure on AWS**. Systems Manager simplifies resource and application management, shortens the time to detect and resolve operational problems, and helps you operate and manage your AWS infrastructure securely at scale
+
 
 ### References:
 * https://aws.amazon.com/iam/
