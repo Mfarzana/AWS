@@ -43,6 +43,23 @@ Is a web service that provides resizablee compute capacity in the Cloud. It is d
 * Reduec the overall maintenance needed for the application
 * Few customizations are required
 
+## AWS Lambda
+AWS Lambda is a **serverless compute service** that lets you run code without provisioning or managing servers, creating workload-aware cluster scaling logic, maintaining event integrations, or managing runtimes. With Lambda, you can run code for virtually any type of application or backend service - all with zero administration. Just upload your code as a ZIP file or container image, and Lambda automatically and precisely allocates compute execution power and runs your code based on the incoming request or event, for any scale of traffic.
+### Use Cases
+
+* **Data processing** - eg:Lambda can be directly triggered by AWS services such as S3, DynamoDB etc.
+* **Real-time file processing** - eg: You can use Amazon S3 to trigger AWS Lambda to process data immediately after an upload. 
+* **Real-time stream processing** - eg: You can use AWS Lambda and Amazon Kinesis to process real-time streaming data for application activity tracking, transaction order processing, click stream analysis, log filtering, social media analysis etc.
+* **achine learning** - eg: You can use AWS Lambda to preprocess data before feeding it to your machine learning model. 
+* **Backends** - eg: You can build serverless backends using AWS Lambda to handle web, mobile, Internet of Things (IoT), and 3rd party API requests. 
+* **Web applications** - eg: By combining AWS Lambda with other AWS services, developers can build powerful web applications that automatically scale up and down and run in a highly available configuration across multiple data centers – with zero administrative effort required for scalability, back-ups or multi-data center redundancy.
+
+### Advantages
+* Reduced maintenance requirments
+* Enables fault tolerance without  additional work
+* Scales based on demand
+* Pricing is based on usage
+
 #### SSM 
 AWS Systems Manager or Simple System Manager is an **AWS service** that you can **use to view and control your infrastructure on AWS**. Systems Manager simplifies resource and application management, shortens the time to detect and resolve operational problems, and helps you operate and manage your AWS infrastructure securely at scale
 
@@ -51,3 +68,4 @@ AWS Systems Manager or Simple System Manager is an **AWS service** that you can 
 * https://aws.amazon.com/iam/
 * https://aws.amazon.com/ec2/?ec2-whats-new.sort-by=item.additionalFields.postDateTime&ec2-whats-new.sort-order=desc
 * https://docs.aws.amazon.com/systems-manager/latest/userguide/what-is-systems-manager.html
+* https://aws.amazon.com/lambda/
