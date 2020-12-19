@@ -3,7 +3,7 @@
 Is a web service that provides resizablee compute capacity in the Cloud. It is designed to make web-scale computing easier for developer. Amazon EC2 **provides different instance (as servers)** types to enable you to choose the CPU, memory, storage, and networking capacity that you need **to run your applications**.
 
 ```diff
-! Provide secure and resizable virtual servers on AWS  orange
+! Provide secure and resizable virtual servers on AWS  
 ```
 
 ### EC2 Use Cases
@@ -31,7 +31,7 @@ Is a web service that provides resizablee compute capacity in the Cloud. It is d
 * Only pay for the other services you leverage
 * **You can simply upload your code and Elastic Beanstalk automatically handles the deployment, from capacity provisioning, load balancing, auto-scaling to application health monitoring.**
 ```diff
-! Perform for scaling and deploying web apps and services  orange
+! Perform for scaling and deploying web apps and services  
 ```
 #### Elastic BeanStalk Features
 * Monitoring
