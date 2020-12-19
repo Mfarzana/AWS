@@ -64,3 +64,4 @@ AWS Lambda is a **serverless compute service** that lets you **run code without 
 * https://aws.amazon.com/ec2/?ec2-whats-new.sort-by=item.additionalFields.postDateTime&ec2-whats-new.sort-order=desc
 * https://docs.aws.amazon.com/systems-manager/latest/userguide/what-is-systems-manager.html
 * https://aws.amazon.com/lambda/
+* https://cloudacademy.com/blog/which-aws-compute-service-do-i-need/
