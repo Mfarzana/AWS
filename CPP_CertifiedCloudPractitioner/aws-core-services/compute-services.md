@@ -1,6 +1,11 @@
 # AWS Compute Services
 ## Amazon Elastic Compute Cloud (Amazon EC2) 
 Is a web service that provides resizablee compute capacity in the Cloud. It is designed to make web-scale computing easier for developer. Amazon EC2 **provides different instance (as servers)** types to enable you to choose the CPU, memory, storage, and networking capacity that you need **to run your applications**.
+
+```diff
+! Provide secure and resizable virtual servers on AWS  orange
+```
+
 ### EC2 Use Cases
 * Web application hosting
 * Batch processing
@@ -20,11 +25,14 @@ Is a web service that provides resizablee compute capacity in the Cloud. It is d
   * **Reserved**: You purchase at a discount instance in advanced for 1-3 years
   * **Spot**: you can leverage unused EC2 capacity in a region for a large discount
 ## AWS Elastic Beanstalk
-**Automates the process of deploying and scaling workloads on EC2 (PaaS)**
+**Automates the process of deploying and scaling workloads on EC2 (PaaS)**. 
 * Support a specific technologies
 * Leverage existing AWS services
 * Only pay for the other services you leverage
-* Handle provisioning, load balancing, scaling and monitoring
+* **You can simply upload your code and Elastic Beanstalk automatically handles the deployment, from capacity provisioning, load balancing, auto-scaling to application health monitoring.**
+```diff
+! Perform for scaling and deploying web apps and services  orange
+```
 #### Elastic BeanStalk Features
 * Monitoring
 * Deployment
@@ -40,6 +48,9 @@ AWS Lambda is a **serverless compute service** that lets you **run code without 
 
 > **NOTE:** Serverless computing is a cloud computing execution model in which the **cloud provider runs the server**, and **dynamically manages the allocation of machine resources**
 
+```diff
+! Enable Compute without managing servers 
+```
 ### Use Cases
 
 * **Data processing**: Lambda can be directly triggered by AWS services such as S3, DynamoDB etc.
