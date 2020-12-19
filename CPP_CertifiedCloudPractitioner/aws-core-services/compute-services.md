@@ -46,11 +46,11 @@ Is a web service that provides resizablee compute capacity in the Cloud. It is d
 ## AWS Lambda
 AWS Lambda is a **serverless compute service** that lets you **run code without provisioning or managing servers**, creating workload-aware cluster scaling logic, maintaining event integrations, or managing runtimes. With Lambda, you can run code for virtually any type of application or backend service - all with zero administration. Just **upload your code as a ZIP file or container image, and Lambda automatically and precisely allocates compute execution power and runs your code based on the incoming request** or event, for any scale of traffic.
 
-> **NOTE:** Serverless computing is a cloud computing execution model in which the **cloud provider runs the server**, and **dynamically manages the allocation of machine resources**
-
 ```diff
 ! Enable Compute without managing servers 
 ```
+> **NOTE:** Serverless computing is a cloud computing execution model in which the **cloud provider runs the server**, and **dynamically manages the allocation of machine resources**
+
 ### Use Cases
 
 * **Data processing**: Lambda can be directly triggered by AWS services such as S3, DynamoDB etc.
