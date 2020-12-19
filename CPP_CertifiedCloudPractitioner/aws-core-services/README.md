@@ -1,8 +1,13 @@
-## AWS Interacting Methods
-* AWS console - Web/App Based
-* AWS CLI - Command line Interface
-* AWS SDK - Software Developer Kit
-## IAM
-AWS **Identity and Access Management** (IAM) enables you to **manage access** to AWS services and resources securely. 
-Using IAM, you can create and manage **AWS users and groups, and use permissions to allow and deny their access to AWS resources**.
-IAM is a feature of your AWS account offered at no additional charge. You will be charged only for use of other AWS services by your users.
+# AWS Core Services
+* ## AWS Interacting Methods
+* ## Compute Servies on AWS
+  * Amazon EC2
+  * AWS Elastic Beanstalk
+  * AWS Lambda
+* ## Networking And Content Delivery Services
+  * Amazon Route 53
+  * Amazon VPC
+  * AWS Direct Connect
+  * Amazon API Gateway
+  * Amazon CloudFront
+  * Elastic Load Balancing
