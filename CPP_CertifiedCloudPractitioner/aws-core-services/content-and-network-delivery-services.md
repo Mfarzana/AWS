@@ -24,7 +24,15 @@ AWS Direct Connect is a cloud service solution that makes it easy to establish a
 * Highly Avaialble
 * Enable Global Resouce Routing
 > **NOTE**: Route 53 does not require region selection
+## Elastic Load Balancing
+Elastic Load Balancing **automatically distributes** incoming application **traffic across multiple targets**, such as **Amazon EC2 instances, containers, IP addresses, Lambda functions, and virtual appliances**. Supports one or more AZ's in a region.
+### Three types of load balancer**
+* Application Load Balancer (ALB)
+* Network Load Balancer (NLB)
+* Classic Load Balancer
+
 ## References
 * https://aws.amazon.com/vpc/?vpc-blogs.sort-by=item.additionalFields.createdDate&vpc-blogs.sort-order=desc
 * https://aws.amazon.com/directconnect/
 * https://aws.amazon.com/route53/
+* https://aws.amazon.com/elasticloadbalancing/?elb-whats-new.sort-by=item.additionalFields.postDateTime&elb-whats-new.sort-order=desc
