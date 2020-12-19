@@ -29,7 +29,7 @@ Is a web service that provides resizablee compute capacity in the Cloud. It is d
 * Support a specific technologies
 * Leverage existing AWS services
 * Only pay for the other services you leverage
-* **You can simply upload your code and Elastic Beanstalk automatically handles the deployment, from capacity provisioning, load balancing, auto-scaling to application health monitoring.**
+* You can simply **upload your code** and **Elastic Beanstalk automatically** handles the **deployment**, from capacity **provisioning**, **load balancing, auto-scaling** to application health **monitoring.**
 ```diff
 ! Perform for scaling and deploying web apps and services  
 ```
