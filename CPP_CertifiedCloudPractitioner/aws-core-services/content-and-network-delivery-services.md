@@ -1,8 +1,22 @@
-## AWS Interacting Methods
-* AWS console - Web/App Based
-* AWS CLI - Command line Interface
-* AWS SDK - Software Developer Kit
-## IAM
-AWS **Identity and Access Management** (IAM) enables you to **manage access** to AWS services and resources securely. 
-Using IAM, you can create and manage **AWS users and groups, and use permissions to allow and deny their access to AWS resources**.
-IAM is a feature of your AWS account offered at no additional charge. You will be charged only for use of other AWS services by your users.
+# Networking and Content Delivery Services
+
+## Amazon Virtual Private Cloud (Amazon VPC)
+is a service that lets you launch AWS resources in a logically isolated virtual network that you define
+* Enables virtual networks in AWS
+* Support **IPv4 and IPv6**
+* Allows for **configuration of**
+  * IP address range
+  * **Subnets**
+  * **Route Tables**
+  * **Network gateway**
+* Support public and private subnets
+* Can utilize **NAT** for private subnets
+* Enable a connection to your data center
+* Can connect to other VPC's
+* Support private connection to many AWS services
+## AWS Direct Connect
+AWS Direct Connect is a cloud service solution that makes it easy to establish a dedicated network connection from your data center ato AWS
+
+## References
+* https://aws.amazon.com/vpc/?vpc-blogs.sort-by=item.additionalFields.createdDate&vpc-blogs.sort-order=desc
+* https://aws.amazon.com/directconnect/
