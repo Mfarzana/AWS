@@ -30,9 +30,24 @@ Elastic Load Balancing **automatically distributes** incoming application **traf
 * Application Load Balancer (ALB)
 * Network Load Balancer (NLB)
 * Classic Load Balancer
+## Scaling on Amazon EC2
+* **Vertical Scaling or Scale up**: * You scale up your instance type to a large instance type with additional resources
+* **Horizontal scaling or Scale Out**: You scale out and additional instances to handle the demand of your application.
+
+```diff
+! Scaling up** is when you change the instance types within your Auto Scaling Group to a higher type. 
+For example: changing an instance from a m4.large to a m4.xlarge, scaling down is to do the reverse.
+
+! Scaling out is when you add more instances to your Auto Scaling Group and scaling in is when you reduce the number of instances in your Auto Scaling Group.
+For example: Let's say you have an ASG with 4x m4.xlarge instances. If one fails that means you lost 25% of your processing capability, it doesn't matter that these are sizeable instances with a good amount of CPU and Ram, the fact is by having bigger instance types but less of them you increase the impact of a failure.
+
+However if you had say 8x m4.large instead, your total compute is the same as 4x m4.xlarge however if 1 instance dies then you only lose 12.5% of your resources.
+Typically its better to use more smaller instances than less larger ones.
+```
 
 ## References
 * https://aws.amazon.com/vpc/?vpc-blogs.sort-by=item.additionalFields.createdDate&vpc-blogs.sort-order=desc
 * https://aws.amazon.com/directconnect/
 * https://aws.amazon.com/route53/
 * https://aws.amazon.com/elasticloadbalancing/?elb-whats-new.sort-by=item.additionalFields.postDateTime&elb-whats-new.sort-order=desc
+* https://stackoverflow.com/questions/42034688/aws-scale-out-scale-up#:~:text=Scaling%20out%20is%20when%20you,an%20ASG%20with%204x%20m4.
