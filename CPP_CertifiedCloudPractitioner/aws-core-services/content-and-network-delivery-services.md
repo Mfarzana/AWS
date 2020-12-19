@@ -27,3 +27,4 @@ AWS Direct Connect is a cloud service solution that makes it easy to establish a
 ## References
 * https://aws.amazon.com/vpc/?vpc-blogs.sort-by=item.additionalFields.createdDate&vpc-blogs.sort-order=desc
 * https://aws.amazon.com/directconnect/
+* https://aws.amazon.com/route53/
