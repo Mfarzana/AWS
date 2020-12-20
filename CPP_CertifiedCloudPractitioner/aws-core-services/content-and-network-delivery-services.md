@@ -47,6 +47,9 @@ However if you had say 8x m4.large instead, your total compute is the same as 4x
 however if 1 instance dies then you only lose 12.5% of your resources.
 ! Typically its better to use more smaller instances than less larger ones.
 ```
+## Amazon CloudFront
+is a fast **content delivery network (CDN) service** that securely ***delivers data, videos, applications, and APIs to customers** globally with low latency, high transfer speeds, all within a developer-friendly environment.
+
 
 ## References
 * https://aws.amazon.com/vpc/?vpc-blogs.sort-by=item.additionalFields.createdDate&vpc-blogs.sort-order=desc
