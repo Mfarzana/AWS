@@ -1,0 +1,39 @@
+# AWS File Storage Services
+
+## Amazon S3
+**Amazon Simple Storage Service** (Amazon S3) is an **object storage** service that offers industry-leading scalability, data availability, security, and performance.
+This means customers of **all sizes and industries can use** it to **store and protect any amount of data** for a range of use cases, such as data lakes, websites, 
+mobile applications, **backup and restore, archive**, enterprise applications, IoT devices, and big data analytics.
+
+* **Stores files as objects in buckets**
+* Provides **different storage classes** for different use cases
+* **Stores data** across **multiple availability zones**
+* Unables **URL access for files**
+* Offers configuration rules for data lifecyle
+* **Can Serve as a static website host**
+
+### Amazon S3 Non Archival Storage Classes
+* **S3 Standard**: is the **default storage** class and is **for frequently access data**
+* **S3 Intelligent-Tiering**: will move your data to the correct storage class based on usage
+  * Automatically moves files based on access
+  * Moves between frequent and infrequent access
+  * Same performance as S3-Standard   
+  > **S3 Intelligent-Tiering is the only cloud storage class that delivers automatic cost savings by moving objects between four access tiers when access patterns change**. 
+  The S3 Intelligent-Tiering storage class is designed to optimize costs by automatically moving data to the most cost-effective access tier, without operational overhead.
+* **S3 Standard-IA**: is for **infrequently accessed data** with the standard resilience(/rəˈzilyəns/)
+* **S3 One Zone-IA**: is for **infrequently access data** that is **only one stored in one AZ**
+
+### S3 Lifecyle Policies
+* Object in a bucket can transition or expire based on your criteria
+* Transition can enable objects to move to another storage class based on time
+* Expiratino can delete objects based on age
+* Policies can also factor in versions of a specific object in the bucket
+### S3 Transfer Acceleration 
+Feature that can be enabled per bucket that allows for **optimized uploading of data using the AWS edge locations as part of Amazon CluudFront**.
+```diff
+S3 Transer Acceleratin upload data in your buckets much faster
+! if you need upload data fast and efficient way in your S3 bujects you can consider utilizing S3 Transfer Acceleration
+```
+  
+## References
+* https://aws.amazon.com/s3/
