@@ -11,3 +11,10 @@
   * Amazon API Gateway
   * Amazon CloudFront
   * Elastic Load Balancing
+* ## File Storage Services
+  * Amazon S3
+  * Amazon S3 Glacier
+  * Amazon Elasic Block Store
+  * Amazon Elastic File System
+  * AWS Snowball
+  * AWS Snowmobile
