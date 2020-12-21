@@ -49,7 +49,13 @@ however if 1 instance dies then you only lose 12.5% of your resources.
 ```
 ## Amazon CloudFront
 is a fast **content delivery network (CDN) service** that securely ***delivers data, videos, applications, and APIs to customers** globally with low latency, high transfer speeds, all within a developer-friendly environment.
-
+* Content Delivery Network (CDN)
+* Enables **users to get content from servers closet to them**
+* Support static and dynamic content
+* Utilizes AWS edge locations
+* Include advance security features
+  * AWS shield for DDoS
+  * AWS WAF (Web Application Firewall)
 
 ## References
 * https://aws.amazon.com/vpc/?vpc-blogs.sort-by=item.additionalFields.createdDate&vpc-blogs.sort-order=desc
@@ -57,3 +63,4 @@ is a fast **content delivery network (CDN) service** that securely ***delivers d
 * https://aws.amazon.com/route53/
 * https://aws.amazon.com/elasticloadbalancing/?elb-whats-new.sort-by=item.additionalFields.postDateTime&elb-whats-new.sort-order=desc
 * https://stackoverflow.com/questions/42034688/aws-scale-out-scale-up#:~:text=Scaling%20out%20is%20when%20you,an%20ASG%20with%204x%20m4.
+* https://aws.amazon.com/cloudfront/
