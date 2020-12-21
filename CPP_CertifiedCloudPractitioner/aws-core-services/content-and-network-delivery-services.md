@@ -26,7 +26,7 @@ AWS Direct Connect is a cloud service solution that makes it easy to establish a
 > **NOTE**: Route 53 does not require region selection
 ## Elastic Load Balancing
 Elastic Load Balancing **automatically distributes** incoming application **traffic across multiple targets**, such as **Amazon EC2 instances, containers, IP addresses, Lambda functions, and virtual appliances**. Supports one or more AZ's in a region.
-### Three types of load balancer**
+### Three types of load balancer
 * Application Load Balancer (ALB)
 * Network Load Balancer (NLB)
 * Classic Load Balancer
@@ -56,7 +56,12 @@ is a fast **content delivery network (CDN) service** that securely ***delivers d
 * Include advance security features
   * AWS shield for DDoS
   * AWS WAF (Web Application Firewall)
-
+## Amazon API Gatway
+* Fully managed API management services
+* Direct integrates with AWS multile services
+* Provide monitoring and metrices for api all
+* Support VPC and on-premise private applications
+> Using API Gateway, **you can create RESTful APIs and WebSocket APIs** that enable real-time two-way communication applications. API Gateway supports containerized and serverless workloads, as well as web applications.
 ## References
 * https://aws.amazon.com/vpc/?vpc-blogs.sort-by=item.additionalFields.createdDate&vpc-blogs.sort-order=desc
 * https://aws.amazon.com/directconnect/
@@ -64,3 +69,4 @@ is a fast **content delivery network (CDN) service** that securely ***delivers d
 * https://aws.amazon.com/elasticloadbalancing/?elb-whats-new.sort-by=item.additionalFields.postDateTime&elb-whats-new.sort-order=desc
 * https://stackoverflow.com/questions/42034688/aws-scale-out-scale-up#:~:text=Scaling%20out%20is%20when%20you,an%20ASG%20with%204x%20m4.
 * https://aws.amazon.com/cloudfront/
+* https://aws.amazon.com/api-gateway/
