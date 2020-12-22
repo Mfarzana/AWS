@@ -12,16 +12,33 @@ mobile applications, **backup and restore, archive**, enterprise applications, I
 * Offers configuration rules for data lifecyle
 * **Can Serve as a static website host**
 
-### Amazon S3 Non Archival Storage Classes
-* **S3 Standard**: is the **default storage** class and is **for frequently access data**
-* **S3 Intelligent-Tiering**: will move your data to the correct storage class based on usage
-  * Automatically moves files based on access
-  * Moves between frequent and infrequent access
-  * Same performance as S3-Standard   
-  > **S3 Intelligent-Tiering is the only cloud storage class that delivers automatic cost savings by moving objects between four access tiers when access patterns change**. 
-  The S3 Intelligent-Tiering storage class is designed to optimize costs by automatically moving data to the most cost-effective access tier, without operational overhead.
-* **S3 Standard-IA**: is for **infrequently accessed data** with the standard resilience(/rəˈzilyəns/)
-* **S3 One Zone-IA**: is for **infrequently access data** that is **only one stored in one AZ**
+* ### Amazon S3 Non Archival Storage Classes
+  * **S3 Standard**: is the **default storage** class and is **for frequently access data**
+  * **S3 Intelligent-Tiering**: will move your data to the correct storage class based on usage
+    * Automatically moves files based on access
+    * Moves between frequent and infrequent access
+    * Same performance as S3-Standard   
+    > **S3 Intelligent-Tiering is the only cloud storage class that delivers automatic cost savings by moving objects between four access tiers when access patterns change**. 
+    The S3 Intelligent-Tiering storage class is designed to optimize costs by automatically moving data to the most cost-effective access tier, without operational overhead.
+  * **S3 Standard-IA**: is for **infrequently accessed data** with the standard resilience(/rəˈzilyəns/)
+  * **S3 One Zone-IA**: is for **infrequently access data** that is **only one stored in one AZ**
+* ### Amazon S3 Archival Storage Classes
+  * **Amazon S3 Glacier**
+    * S3 Galcier
+    * S3 Glacier Deep Archive
+    
+    ```
+              S3 Galcier                          |         S3 Glacier Deep Archive
+     ---------------------------------------------| -------------------------------------
+     Desinged for **archival data **              | Desinged for **archival data** 
+     90 day minimum storage duration change       | 180 day minimum storage duration change
+     Can be retrieved either minutes or hours     | Can be retrieved either hours
+     You pay a retrieval fee per GB per retrieved | You pay a retrieval fee per GB per retrieved
+     Over 5 times less expensive than S3          | Over 23 times less expensive than S3 
+      Standard storage class                      |       Standard storage class   
+     
+     ```
+    
 
 ### S3 Lifecyle Policies
 * Object in a bucket can transition or expire based on your criteria
