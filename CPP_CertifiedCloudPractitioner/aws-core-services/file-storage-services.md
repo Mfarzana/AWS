@@ -30,7 +30,7 @@ mobile applications, **backup and restore, archive**, enterprise applications, I
     ```
               S3 Galcier                          |         S3 Glacier Deep Archive
      ---------------------------------------------| -------------------------------------
-     Desinged for **archival data **              | Desinged for **archival data** 
+     Desinged for archival data                   | Desinged for archival data 
      90 day minimum storage duration change       | 180 day minimum storage duration change
      Can be retrieved either minutes or hours     | Can be retrieved either hours
      You pay a retrieval fee per GB per retrieved | You pay a retrieval fee per GB per retrieved
