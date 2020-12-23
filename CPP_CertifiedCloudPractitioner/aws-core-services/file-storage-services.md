@@ -51,6 +51,21 @@ Feature that can be enabled per bucket that allows for **optimized uploading of 
 S3 Transer Acceleratin upload data in your buckets much faster
 ! if you need upload data fast and efficient way in your S3 bujects you can consider utilizing S3 Transfer Acceleration
 ```
+## Amazon Elastic Block Store( Amazon EBS )
+  **Persistent block storage for use with Amazon EC2**.
+  Persistent desinged to be connected to a single EC2 instance that can be scale to support petabytes of data and supports multiple volume types based on need.
+  * Enable redundancy within an AZ
+  * Allow users to take snapshots of its data
+  * Offers encryption of its volumes
+  * **Provides multiple volume types**
+    * **General purpose SSD**: is a cost effective type designed for general workloads 
+    * **Provisional IOPS SSD**: High performace volume for low latency application
+    * **Throughput optimized HDD**: is designed for frequently access data
+    * **Cold HDD**: is desinged for less frequently accessed workloads. 
+  
+## Amazon Elastic File System (Amazon EFS)
+
+  
   
 ## References
 * https://aws.amazon.com/s3/
