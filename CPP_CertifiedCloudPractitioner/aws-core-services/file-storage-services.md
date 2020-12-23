@@ -73,7 +73,6 @@ S3 Transer Acceleratin upload data in your buckets much faster
    * Infrequent Access
  * Provides configurable lifecycle data rules
  ```
- **NOTE**
  NFS: Network File System. It is protocal which allows user to access data and files remotely over the internet.
   It uses the Transmission Control Protocol (TCP) and User Datagram Protocol (UDP) for accessing and delivering the data and files.
  ```
