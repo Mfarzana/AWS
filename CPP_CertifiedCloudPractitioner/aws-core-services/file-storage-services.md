@@ -83,8 +83,26 @@ S3 Transer Acceleratin upload data in your buckets much faster
    * Active Directory integration 
    * Windows NTFS
  * Utilize SSD drives for low latency
-  
+## AWS Snowball & AWS Snowmobile 
+**Large Scale of Data Transfer into AWS**
+
+```
+              AWS Snowball                          |           AWS Snowmobile  
+     ---------------------------------------------  | -------------------------------------
+     Desinged for large-scale data transfer         | Desinged for large-scale data transfer 
+     Supports petabyte scale transfer               |  Supports exrabyte scale transfer
+     Physical device is delivered by AWS            | Ruggedized shipping container is delivered to your location
+     You connect the Snowball to your network       | AWS sets up a connection to your network
+                             and upload your data   | 
+     AWS receives device and loads your data into S3| AWS will load data into S3 when the container is received at an AWS location                        
+     
+   
+ ```
+     
+  > To migrate large datasets of 10PB or more in a single location, you should use Snowmobile. 
+  For datasets less than 10PB or distributed in multiple locations, you should use Snowball
   
 ## References
 * https://aws.amazon.com/s3/
 * https://www.javatpoint.com/nfs
+* https://aws.amazon.com/snowmobile/faqs/#:~:text=Q%3A%20How%20should%20I%20choose,locations%2C%20you%20should%20use%20Snowball.
