@@ -64,8 +64,28 @@ S3 Transer Acceleratin upload data in your buckets much faster
     * **Cold HDD**: is desinged for less frequently accessed workloads. 
   
 ## Amazon Elastic File System (Amazon EFS)
-
+ * **Fully Managed NFS file system**
+ * Designed for Linux workloads
+ * Suport up to petabtye scale
+ * Store data across multiple AZ's
+ * Provide two different storage classes
+   *  Standard
+   * Infrequent Access
+ * Provides configurable lifecycle data rules
+ ```
+ **NOTE**
+ NFS: Network File System. It is protocal which allows user to access data and files remotely over the internet.
+  It uses the Transmission Control Protocol (TCP) and User Datagram Protocol (UDP) for accessing and delivering the data and files.
+ ```
+## Amazon FSx for Windows File Server 
+ * Fully managed native windows file system
+ * Includes native windows features including
+   * SMB Support 
+   * Active Directory integration 
+   * Windows NTFS
+ * Utilize SSD drives for low latency
   
   
 ## References
 * https://aws.amazon.com/s3/
+* https://www.javatpoint.com/nfs
