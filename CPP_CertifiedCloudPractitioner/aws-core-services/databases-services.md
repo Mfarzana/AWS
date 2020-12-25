@@ -40,7 +40,16 @@ You can use the **AWS Database Migration Service to easily migrate or replicate 
   * **Databse layer caching**
   * **Session storage**
 
+## Amazon Redshift
+* Scalable **data warehouse service**
+* Supports petabyte scale warehousing of data
+* Leverage high performance disks and columnar storage
+* Offers the ability of fully encrypt content
+* **Provides isolation with a VPC**
+* Enables quering of exabytes of data in Amazon S3 using Redshift spectrum
+
 
 ## Reference
 * https://aws.amazon.com/rds/
 * https://aws.amazon.com/dynamodb/
+* https://aws.amazon.com/elasticache/
