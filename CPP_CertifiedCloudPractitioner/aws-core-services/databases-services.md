@@ -27,6 +27,20 @@ You can use the **AWS Database Migration Service to easily migrate or replicate 
 * Implementatins where low latency is key
 * Data models without BLOB storage
 
+## Amazon ElastiCache 
+* Fully managed **in-memory data stores**
+* Support both Memcached and Redis. **Amazon ElastiCache Engines**
+    * Amazon ElastiCache for **Redis**
+        * Building real-time apps across versatile use cases like gaming, geospatial service, caching, session stores, or queuing, with advanced data structures, replication, and point-in-time snapshot support. 
+    * Amazon ElastiCache for **Memcached**
+        * Building a simple, scalable caching layer for your data-intensive apps.
+        
+* Enables scalling and replicas to meet application demand 
+* Handles common use cases including 
+  * **Databse layer caching**
+  * **Session storage**
+
+
 ## Reference
 * https://aws.amazon.com/rds/
 * https://aws.amazon.com/dynamodb/
