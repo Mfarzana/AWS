@@ -15,9 +15,9 @@ You can use the **AWS Database Migration Service to easily migrate or replicate 
 ## Amazon DynamoDB
 * Fully managed **NoSQL database service** 
 * Provides both **key-value and document database** 
-* Enables extremely low latency at virtually any scale
-* Support automated scaling based on configuaration 
-* Offers in memory cache with DynamoDB Acceleration (DAX)
+* Enables **extremely low latency at virtually any scale**
+* Support **automated scaling based on configuaration** 
+* Offers in **memory cache** with DynamoDB Acceleration (DAX)
 ```diff
 ! DynamoDB can handle more than 10 trillion request per day and can support peaks of more than 20 million request per second .
 ```
