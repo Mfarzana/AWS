@@ -22,6 +22,6 @@
   * Amazon RDS
   * Amazon Aurora
   * Amazon DynamoDB
-  * Amazon Redshit
+  * Amazon Redshift
   * Amazo Elasticache
   * AWS Database Migration Service
