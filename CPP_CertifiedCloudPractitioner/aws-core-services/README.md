@@ -18,3 +18,10 @@
   * Amazon Elastic File System
   * AWS Snowball
   * AWS Snowmobile
+* ## Database services and utilities
+  * Amazon RDS
+  * Amazon Aurora
+  * Amazon DynamoDB
+  * Amazon Redshit
+  * Amazo Elasticache
+  * AWS Database Migration Service
