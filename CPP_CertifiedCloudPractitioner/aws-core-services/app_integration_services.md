@@ -1,4 +1,6 @@
-#App Integration service
+# App Integration service
+**Application integration on AWS is a suite of services that enable communication between decoupled components within microservices, distributed systems, and serverless applications.**
+
 ## Amazon Simple Notification Service(SNS)
 Amazon Simple Notification Service **(Amazon SNS) is a managed service that provides message delivery from publishers to subscribers** ( also known as producers and consumers ). The publisher communicates asynchronously with the recipient by sending messages to topics that are logical access points and communication channels . **Clients subscribe to SNS topics and receive issued messages using supported protocols such as Amazon SQS, AWS Lambda, HTTP, email, mobile push notifications, and mobile text messages (SMS).**
 
