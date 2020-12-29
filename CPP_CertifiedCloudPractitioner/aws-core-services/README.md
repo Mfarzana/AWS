@@ -25,3 +25,7 @@
   * Amazon Redshift
   * Amazo Elasticache
   * AWS Database Migration Service
+* ## AWS App Integration Services
+  * **Amazon SNS:** Managed  pub/sub messaging service
+  * **Amazon SQS:** Managed Message queue service
+  * **AWS Step Functions:** Serverless workflow managemente service
