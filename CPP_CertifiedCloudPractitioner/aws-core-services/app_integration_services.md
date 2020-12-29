@@ -27,7 +27,7 @@ Amazon Simple Notification Service **(Amazon SNS) is a managed service that prov
 Amazon Simple Queue Service **(SQS) is a fully managed message queuing service that enables you to decouple and scale microservices, distributed systems, and serverless applications**. SQS eliminates the complexity and overhead associated with managing and **operating message oriented middleware, and empowers developers** to focus on differentiating work. **Using SQS, you can send, store, and receive messages between software components at any volume, without losing messages or requiring other services to be available**.
 
 * **Fully managed message queue service**
-* Enables you to build decoupled and fault tolerant applications
+* **Enables you to build decoupled and fault tolerant applications**
 * Support up to 256 KB data payload
 * **Allows message to be stored up to 14 days**
 * **Provides two types of queue**
